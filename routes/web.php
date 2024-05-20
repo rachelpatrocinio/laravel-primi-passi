@@ -17,6 +17,14 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/header', function () {
-    return view('header');
+Route::get('/page1', function () {
+    return view('page1');
+});
+
+Route::get('/page2', function () {
+    return view('page2');
+});
+
+Route::get('/page3', function () {
+    return view('page3');
 });
